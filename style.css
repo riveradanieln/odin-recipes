@@ -1,0 +1,15 @@
+.title {
+    text-align: center;
+    background-color: #F68E5F;
+    color: #25291C;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body,
+.list {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 18px;
+    color: #A72608;
+    font-weight: bold;
+}
+
