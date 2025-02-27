@@ -17,3 +17,21 @@
     font-size: 16px;
     color: #1C0221;
 }
+
+.recipe-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation-menu li {
+    float: left;
+}
+
+.navigation-menu li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
