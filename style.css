@@ -1,3 +1,5 @@
+
+
 .title {
     text-align: center;
     background-color: #F68E5F;
@@ -27,6 +29,9 @@
 
 .navigation-menu li {
     float: left;
+    padding: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .navigation-menu li a {
