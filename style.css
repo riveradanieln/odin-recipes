@@ -1,10 +1,15 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .title {
     text-align: center;
     background-color: #F68E5F;
     color: #25291C;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -1px;
 }
 
 .body,
@@ -21,15 +26,13 @@
 }
 
 .recipe-menu {
+    background-color: #f68f5fc3;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 
 .navigation-menu li {
     float: left;
-    padding: 8px;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -37,6 +40,11 @@
 .navigation-menu li a {
     display: inline-block;
     text-align: center;
+    margin-top: 1px;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navigation-menu li a:hover{
+    background-color: #A72608;
 }
