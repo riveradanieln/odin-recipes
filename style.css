@@ -1,21 +1,25 @@
-* {
-    margin: 0;
+body {
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: #FFD29D;
+    width: 960px;
 }
 
 .title {
     text-align: center;
-    background-color: #F68E5F;
-    color: #25291C;
+    background-color: #A41623;
+    color: #FFD29D;
     font-family: 'Courier New', Courier, monospace;
-    margin-bottom: -1px;
 }
 
-.body,
+body,
 .list {
     font-family: Georgia, 'Times New Roman', serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #A72608;
     font-weight: bold;
 }
@@ -25,26 +29,25 @@
     color: #1C0221;
 }
 
-.recipe-menu {
-    background-color: #f68f5fc3;
-    list-style-type: none;
-    overflow: hidden;
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+     
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    background-color: #FFB563;
 }
 
-.navigation-menu li {
-    float: left;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.navigation-menu li a {
-    display: inline-block;
-    text-align: center;
-    margin-top: 1px;
-    padding: 14px 16px;
+.nav-menu li a {
+    color: #A41623;
     text-decoration: none;
 }
 
-.navigation-menu li a:hover{
-    background-color: #A72608;
+.nav-menu li a:hover {
+    background-color: #A41623;
+    color: #FFD29D;
 }
+
