@@ -53,4 +53,5 @@ body,
 
 .recipe-image {
     margin: 0 auto;
+    border: 2px solid #A41623;
 }
