@@ -62,7 +62,11 @@ body,
 
 .instructions h2 {
     align-self: stretch;
-    padding: 1em;
+    padding: 0 1em;
+}
+
+.instructions li {
+    padding: 0.5em;
 }
 
 @media (max-width: 700px) {
