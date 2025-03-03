@@ -53,3 +53,14 @@ body,
     margin: 0 auto;
     border: 2px solid #A41623;
 }
+
+.instructions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instructions h2 {
+    align-self: stretch;
+    padding: 1em;
+}
