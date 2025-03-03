@@ -1,12 +1,9 @@
 body {
     margin: 0 auto;
-    padding: 0;
+    padding: 5vw;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
     flex: auto;
     background-color: #FFD29D;
-    width: 960px;
 }
 
 .title {
@@ -52,6 +49,7 @@ body,
 }
 
 .recipe-image {
+    display: flex;
     margin: 0 auto;
     border: 2px solid #A41623;
 }
